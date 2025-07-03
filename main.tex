@@ -1,0 +1,306 @@
+%-------------------------
+% Resume in Latex
+% Author : Yash Arya
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Yash Arya}\\ \vspace{4pt}
+    % 123 Street Name, Town, State 12345 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-7827320685 ~ \href{mailto:yasharya3108@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{yasharya3108@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/yasharya007/}{\raisebox{-0.2\height}\faLinkedin\ \underline{yasharya007}}  ~
+    \href{https://github.com/Yasharya007}{\raisebox{-0.2\height}\faGithub\ \underline{Yasharya007}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Motilal Nehru National Institute of Technology Allahabad}{August 2023 -- Present}
+      {Master of Computer Applications, CPI: 8.37}{Prayagraj, Uttar Pradesh}
+  \resumeSubheading
+      {Shyam Lal College, University of Delhi}{October 2020 -- May 2023}
+      {Bachelor of Science Honours (Mathematics), CPI: 8.46}{Delhi, India}
+  \resumeSubheading
+      {Rajkiya Pratibha Vikas Vidyalaya Surajmal Vihar}{April 2019 -- March 2020}
+      {Class XII (CBSE),  Percentage: 93.6}{Delhi, India}
+  \resumeSubHeadingListEnd
+
+
+
+
+% %-----------EXPERIENCE-----------
+% \section{Experience}
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%       {Electronics Company}{May 2020 -- August 2020}
+%       {Software Engineer Intern}{City, State}
+%       \resumeItemListStart
+%         \resumeItem{Developed a service to automatically perform a set of unit tests daily on a product in development in order to decrease time needed for team members to identify and fix bugs/issues.}
+%         \resumeItem{Incorporated scripts using Python and PowerShell to aggregate XML test results into an organized format and to load the latest build code onto the hardware, so that daily testing can be performed.}
+%         \resumeItem{Utilized Jenkins to provide a continuous integration service in order to automate the entire process of loading the latest build code and test files, running the tests, and generating a report of the results once per day.}
+%         \resumeItem{Explored ways to visualize and send a daily report of test results to team members  using HTML, Javascript, and CSS.}
+%       \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Startup, Inc}{May 2019 -- August 2019}
+%       {Front End Developer Intern}{City, State}
+%       \resumeItemListStart
+%         \resumeItem{Assisted in development of the front end of a mobile application for iOS/Android using Dart and the Flutter framework.}
+%         \resumeItem{Worked with Google Firebase to manage user inputted data across multiple platforms including web and mobile apps.}
+%         \resumeItem{Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.}
+%         \resumeItem{Utilized Android Studio as a development environment in order to visualize the application in both iOS and Android.}
+%     \resumeItemListEnd
+    
+%   \resumeSubHeadingListEnd
+% \vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {\href{https://github.com/Yasharya007/IPOTrust}{\textbf{IPO TRUST} \faGithub\ }$|$ \emph{Solidity, Hardhat, 
+ Node.js, Express.js, MongoDB, React.js, Ether.js}}{April 2025}
+          \resumeItemListStart
+            \resumeItem{Engineered a blockchain-based Web3 dApp for IPO allocation with transparent, tamper-proof random selection.}\vspace{2pt}
+            \resumeItem{Designed Ethereum smart contract with SEBI and registrar access, using 4-party cryptographic seeds to trigger lottery.}\vspace{2pt}
+            \resumeItem{ Implemented secure storage of SHA-256 hashed applicant IDs and public inclusion verification through Etherscan.}\vspace{2pt}
+            % \resumeItem{Integrated Ethers.js with a role-based frontend for registrar operations and off-chain CSV export for SEBI.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://github.com/Yasharya007/Hackalyze}{\textbf{HACKALYZE} \faGithub\ }$|$ \emph{Node.js, Express.js, MongoDB, React.js, Google Gemini, Tesseract OCR}}{March 2025}
+          \resumeItemListStart
+            \resumeItem{Built an AI-powered hackathon judging platform that reduced submission evaluation time by over 95\%.}\vspace{2pt}
+            % \resumeItem{Documented APIs using Swagger, enabling seamless integration with other third party hackathon platforms.}\vspace{2pt}
+            \resumeItem{Configured OCR and Gemini to analyze 4 diverse pitch formats audio, video, image, and text file to generate scores.}\vspace{2pt}
+            \resumeItem{Designed a platform with 3 interfaces (student, teacher, admin) and developed a rubric-based scoring system\\ with custom parameters and weights for AI and manual evaluation. }
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\href{https://github.com/Yasharya007/FaceID-Verification}{\textbf{FACE ID VERIFICATION APP} \faGithub\ }$|$ \emph{Python, Kivy, TensorFlow, OpenCV, Scikit Learn}}{December 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a Python application to verify face IDs by training Siamese Neural Network (SNN) achieving 90\% accuracy.}\vspace{2pt}
+            \resumeItem{Implemented shared-weight CNN with L1 distance  similarity metric for pairwise image comparison.}\vspace{2pt}
+            \resumeItem{Trained the model using binary cross-entropy loss and Adam optimizer for optimal accuracy and efficiency.}
+          \resumeItemListEnd 
+          % \vspace{-13pt}
+%           \resumeProjectHeading
+%           {\href{https://github.com/Yasharya007/Stroke-Prediction}{\textbf{STROKE PREDICTION WEBSITE} \faGithub\ }$|$ \emph{Python, Flask, React.js, CSS, Pandas, Numpy, Matplotlib}}{JUNE 2024}
+%           \resumeItemListStart
+%             \resumeItem{ Built a web platform for heart stroke risk prediction using machine learning models.}
+%             \resumeItem{Streamlined interface taking 10 input parameters like gender, age, bmi value, Hypertension, Glucose level\\ and smoking status.}
+%             \resumeItem{ Trained 6 various Machine Learning models like Logistic Regression, Random Forest Classifier, SVC, XGB, LGBM.}
+%             \resumeItem{ After in-depth analysis Hyperparameter tuning of models to predict using
+% Imbalanced Dataset with over 99\% accuracy.}
+%           \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {{\textbf{Researcher \& Co-Author $|$ Dr. Amit Biswas, CSED, MNNIT Allahabad}}}{May 2025 - June 2025}
+          \resumeItemListStart
+            \resumeItem{Co-authored and submitted to IEEE a research paper proposing a blockchain-based IPO allocation framework\\ with two-layer architecture  addressing transparency, fairness, and auditability issues in traditional systems.}\vspace{2pt}
+            \resumeItem{Proposed a two-layer consensus mechanism, registrar rating for cluster selection, and a Proof of Honesty (PoH) consensus algorithm to penalize dishonest registrar behavior and reward honest nodes during block proposals.}\vspace{2pt}
+            \resumeItem{ Simulated performance on 30-node networks across 500 IPO rounds; results showed 99\% Jain’s Fairness Index and\\ strong resistance to dishonest behavior compared to PoW, PoS, and PoK.}\vspace{2pt}
+            % \resumeItem{Integrated Ethers.js with a role-based frontend for registrar operations and off-chain CSV export for SEBI.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+% \textbullet{} Data Structures And Algorithms~~~
+% \textbullet{} Object Oriented Programming System~~~ 
+% \textbullet{} Database Management System \\ \vspace{2pt}
+% \textbullet{} Neural Networks~~~
+% \textbullet{} Operating System~~~
+% \textbullet{} Computer Networks ~~~
+% \textbullet{} System Design~~~
+% \textbullet{} Software Engineering\\ 
+    \setlength{\columnsep}{-15pt}
+        \begin{multicols}{3}
+            \begin{itemize}[itemsep=-3pt, parsep=3pt]
+                \item\small Data Structures and Algorithms
+                % \item Neural Networks
+                \item Operating System
+                \item Database Management System
+                \item Computer Networks
+                % \item System Design
+                \item Object Oriented Programming System 
+                \item Software Engineering
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+\vspace{5pt}
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{:~~~~ C, C++, Python (Beginner), Java (Beginner), JavaScript, Solidity} \\ \vspace{3pt}
+     \textbf{Development}{: Node.js, Express.js, Tailwind CSS, MongoDB, SQL, HTML, React.js, LaTeX, Git, Neural Networks} \\ \vspace{3pt}
+     \textbf{Other Skills}{:~~~Competitive Programming, Postman, Web Design, Full-Stack Web Development} \\ \vspace{3pt}
+\textbf{Soft Skills}{:~~~~ Teamwork, Leadership, Management, Communication} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Achievements and Activities}
+\textbullet{}\textbf{ Finalist in Morgan Stanley's Code to Give Hackathon}: Built Hackalyze, ranked among top 8 teams.\\
+    \textbullet{} \textbf{Reached Guardian level on LeetCode }with a peak rating of 2160, ranking in the top 1.2\% globally.\\ 
+\vspace{3pt}
+% \textbullet{}\textbf{ 2nd Position in CSS Battle}: CSS competition in Avishkar held at MNNIT.\\
+% \vspace{3pt}
+% \textbullet{} \textbf{Ranked \href{https://leetcode.com/contest/weekly-contest-417/ranking/}{356/34,000}} in Leetcode Weekly Contest 417.\\
+% \vspace{3pt}
+\textbullet{} \textbf{Achieved Expert rank on Codeforces }with the highest rating of 1620, placing in the top 20\% globally.\\
+\vspace{3pt}
+\textbullet{} \textbf{All India Rank 32} in NIT MCA Common Entrance Test (NIMCET) 2023.\\
+\vspace{3pt}
+\textbullet{}  \textbf{All India Under 40} in International Chemistry Olympiad of Metropolises 2019.
+\vspace{-5pt}
+\sectionsep
+
+
+\section{Coding Profiles}
+\vspace{-2pt} 
+\begin{center}
+\begin{tabularx}{\textwidth}{X X X}
+\href{https://leetcode.com/Yash_Arya2003/}{LeetCode: Yash\_Arya2003} &
+\href{https://codeforces.com/profile/Yash_Arya}{Codeforces: Yash\_Arya} &
+\href{https://www.geeksforgeeks.org/user/yasharya82003/}{GeeksforGeeks: yasharya82003} \\
+\end{tabularx}
+\end{center}
+\vspace{-7pt}
+\end{document}
